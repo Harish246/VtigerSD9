@@ -11,7 +11,9 @@
 	</listeners>
 	<test thread-count="5" name="Test">
 		<classes>
+			<class name="VerifyVtiger_pom.CreateOrgInd" />
 			<class name="VerifyVtiger_pom.CreateOrg" />
+			<class name="VerifyVtiger_pom.CreateCon" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -3,11 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="GenericUtility.Flipkart">
+      <class name="VerifyVtiger_pom.CreateOrgInd">
         <methods>
-          <include name="flipkart"/>
+          <include name="dataBaseConnection"/>
+          <include name="dataBaseDisConnection"/>
+          <include name="logintoApp"/>
+          <include name="logoutfromApp"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="createOrgInd"/>
         </methods>
-      </class> <!-- GenericUtility.Flipkart -->
+      </class> <!-- VerifyVtiger_pom.CreateOrgInd -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

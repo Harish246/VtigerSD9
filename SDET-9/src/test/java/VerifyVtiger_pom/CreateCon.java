@@ -16,7 +16,7 @@ import ObjectRepo.NewConPage;
 @Listeners
 public class CreateCon extends BaseClass {
 
-	@Test(groups = "integration" )
+	@Test(groups = {"smoke","integration","regression"} )
 	public void createCon() throws Throwable {
 		WebDriverUtility wdu = new WebDriverUtility(driver);
 

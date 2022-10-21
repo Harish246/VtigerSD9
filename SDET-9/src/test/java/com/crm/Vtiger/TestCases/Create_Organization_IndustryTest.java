@@ -60,8 +60,8 @@ public class Create_Organization_IndustryTest {
 		Actions act= new Actions(driver);
 		act.moveToElement(ele).perform();
 		
-		 WebElement signOutButton = driver.findElement(By.xpath("//a[text()='Sign Out']"));
-		 signOutButton.click();
+		WebElement signOutButton = driver.findElement(By.xpath("//a[text()='Sign Out']"));
+		signOutButton.click();
 		 
 		 driver.close();
 		

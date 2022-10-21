@@ -13,7 +13,7 @@ import ObjectRepo.OrgPageClass;
 @Listeners
 public class CreateOrg extends BaseClass{
 	
-	@Test(groups= "regression")
+	@Test(groups= {"smoke","integration","regression"})
 	public void createOrg() throws Throwable {
 	WebDriverUtility wdu=new WebDriverUtility(driver);
 		

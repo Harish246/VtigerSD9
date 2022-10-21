@@ -1,140 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="4" total="7" passed="2" failed="1" skipped="0">
+<testng-results ignored="4" total="7" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-18T17:55:18 IST" name="Suite" finished-at="2022-10-18T17:56:48 IST" duration-ms="89840">
+  <suite started-at="2022-10-21T09:40:07 IST" name="Suite" finished-at="2022-10-21T09:41:17 IST" duration-ms="70652">
     <groups>
       <group name="regression">
-        <method signature="CreateCon.createCon()[pri:0, instance:VerifyVtiger_pom.CreateCon@4b45a2f5]" name="createCon" class="VerifyVtiger_pom.CreateCon"/>
-        <method signature="CreateOrg.createOrg()[pri:0, instance:VerifyVtiger_pom.CreateOrg@38cee291]" name="createOrg" class="VerifyVtiger_pom.CreateOrg"/>
-        <method signature="CreateOrgInd.createOrgInd()[pri:0, instance:VerifyVtiger_pom.CreateOrgInd@5824a83d]" name="createOrgInd" class="VerifyVtiger_pom.CreateOrgInd"/>
+        <method signature="CreateCon.createCon()[pri:0, instance:VerifyVtiger_pom.CreateCon@6221a451]" name="createCon" class="VerifyVtiger_pom.CreateCon"/>
+        <method signature="CreateOrg.createOrg()[pri:0, instance:VerifyVtiger_pom.CreateOrg@2e6a8155]" name="createOrg" class="VerifyVtiger_pom.CreateOrg"/>
+        <method signature="CreateOrgInd.createOrgInd()[pri:0, instance:VerifyVtiger_pom.CreateOrgInd@130c12b7]" name="createOrgInd" class="VerifyVtiger_pom.CreateOrgInd"/>
       </group> <!-- regression -->
       <group name="integration">
-        <method signature="CreateCon.createCon()[pri:0, instance:VerifyVtiger_pom.CreateCon@4b45a2f5]" name="createCon" class="VerifyVtiger_pom.CreateCon"/>
-        <method signature="CreateOrg.createOrg()[pri:0, instance:VerifyVtiger_pom.CreateOrg@38cee291]" name="createOrg" class="VerifyVtiger_pom.CreateOrg"/>
-        <method signature="CreateOrgInd.createOrgInd()[pri:0, instance:VerifyVtiger_pom.CreateOrgInd@5824a83d]" name="createOrgInd" class="VerifyVtiger_pom.CreateOrgInd"/>
+        <method signature="CreateCon.createCon()[pri:0, instance:VerifyVtiger_pom.CreateCon@6221a451]" name="createCon" class="VerifyVtiger_pom.CreateCon"/>
+        <method signature="CreateOrg.createOrg()[pri:0, instance:VerifyVtiger_pom.CreateOrg@2e6a8155]" name="createOrg" class="VerifyVtiger_pom.CreateOrg"/>
+        <method signature="CreateOrgInd.createOrgInd()[pri:0, instance:VerifyVtiger_pom.CreateOrgInd@130c12b7]" name="createOrgInd" class="VerifyVtiger_pom.CreateOrgInd"/>
       </group> <!-- integration -->
       <group name="smoke">
-        <method signature="CreateCon.createCon()[pri:0, instance:VerifyVtiger_pom.CreateCon@4b45a2f5]" name="createCon" class="VerifyVtiger_pom.CreateCon"/>
-        <method signature="CreateOrg.createOrg()[pri:0, instance:VerifyVtiger_pom.CreateOrg@38cee291]" name="createOrg" class="VerifyVtiger_pom.CreateOrg"/>
-        <method signature="CreateOrgInd.createOrgInd()[pri:0, instance:VerifyVtiger_pom.CreateOrgInd@5824a83d]" name="createOrgInd" class="VerifyVtiger_pom.CreateOrgInd"/>
+        <method signature="CreateCon.createCon()[pri:0, instance:VerifyVtiger_pom.CreateCon@6221a451]" name="createCon" class="VerifyVtiger_pom.CreateCon"/>
+        <method signature="CreateOrg.createOrg()[pri:0, instance:VerifyVtiger_pom.CreateOrg@2e6a8155]" name="createOrg" class="VerifyVtiger_pom.CreateOrg"/>
+        <method signature="CreateOrgInd.createOrgInd()[pri:0, instance:VerifyVtiger_pom.CreateOrgInd@130c12b7]" name="createOrgInd" class="VerifyVtiger_pom.CreateOrgInd"/>
       </group> <!-- smoke -->
     </groups>
-    <test started-at="2022-10-18T17:55:18 IST" name="Test" finished-at="2022-10-18T17:56:48 IST" duration-ms="89840">
-      <class name="VerifyVtiger_pom.CreateOrg">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:VerifyVtiger_pom.CreateOrg@38cee291]" started-at="2022-10-18T17:55:55 IST" name="launchBrowser" finished-at="2022-10-18T17:55:57 IST" duration-ms="1906" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="logintoApp()[pri:0, instance:VerifyVtiger_pom.CreateOrg@38cee291]" started-at="2022-10-18T17:55:57 IST" name="logintoApp" finished-at="2022-10-18T17:56:00 IST" duration-ms="2635" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logintoApp -->
-        <test-method signature="createOrg()[pri:0, instance:VerifyVtiger_pom.CreateOrg@38cee291]" started-at="2022-10-18T17:56:00 IST" name="createOrg" finished-at="2022-10-18T17:56:10 IST" duration-ms="9670" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createOrg -->
-        <test-method is-config="true" signature="logoutfromApp()[pri:0, instance:VerifyVtiger_pom.CreateOrg@38cee291]" started-at="2022-10-18T17:56:10 IST" name="logoutfromApp" finished-at="2022-10-18T17:56:12 IST" duration-ms="2288" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logoutfromApp -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:VerifyVtiger_pom.CreateOrg@38cee291]" started-at="2022-10-18T17:56:12 IST" name="closeBrowser" finished-at="2022-10-18T17:56:28 IST" duration-ms="16236" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- VerifyVtiger_pom.CreateOrg -->
+    <test started-at="2022-10-21T09:40:07 IST" name="Test" finished-at="2022-10-21T09:41:17 IST" duration-ms="70652">
       <class name="VerifyVtiger_pom.CreateOrgInd">
-        <test-method is-config="true" signature="dataBaseConnection()[pri:0, instance:VerifyVtiger_pom.CreateOrgInd@5824a83d]" started-at="2022-10-18T17:55:18 IST" name="dataBaseConnection" finished-at="2022-10-18T17:55:18 IST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="dataBaseConnection()[pri:0, instance:VerifyVtiger_pom.CreateOrgInd@130c12b7]" started-at="2022-10-21T09:40:07 IST" name="dataBaseConnection" finished-at="2022-10-21T09:40:07 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dataBaseConnection -->
-        <test-method is-config="true" signature="dataBaseDisConnection()[pri:0, instance:VerifyVtiger_pom.CreateOrgInd@5824a83d]" started-at="2022-10-18T17:55:18 IST" name="dataBaseDisConnection" finished-at="2022-10-18T17:55:18 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="dataBaseDisConnection()[pri:0, instance:VerifyVtiger_pom.CreateOrgInd@130c12b7]" started-at="2022-10-21T09:40:07 IST" name="dataBaseDisConnection" finished-at="2022-10-21T09:40:07 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dataBaseDisConnection -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:VerifyVtiger_pom.CreateOrgInd@5824a83d]" started-at="2022-10-18T17:55:18 IST" name="launchBrowser" finished-at="2022-10-18T17:55:21 IST" duration-ms="2850" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:VerifyVtiger_pom.CreateOrgInd@130c12b7]" started-at="2022-10-21T09:40:07 IST" name="launchBrowser" finished-at="2022-10-21T09:40:15 IST" duration-ms="8788" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="logintoApp()[pri:0, instance:VerifyVtiger_pom.CreateOrgInd@5824a83d]" started-at="2022-10-18T17:55:21 IST" name="logintoApp" finished-at="2022-10-18T17:55:24 IST" duration-ms="2807" status="PASS">
+        <test-method is-config="true" signature="logintoApp()[pri:0, instance:VerifyVtiger_pom.CreateOrgInd@130c12b7]" started-at="2022-10-21T09:40:15 IST" name="logintoApp" finished-at="2022-10-21T09:40:22 IST" duration-ms="6075" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintoApp -->
-        <test-method signature="createOrgInd()[pri:0, instance:VerifyVtiger_pom.CreateOrgInd@5824a83d]" started-at="2022-10-18T17:55:24 IST" name="createOrgInd" finished-at="2022-10-18T17:55:37 IST" duration-ms="13185" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [[ ACC97 ] TestYantyra Org925 - Organization Information] but found [TestYantyra Org925]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [[ ACC97 ] TestYantyra Org925 - Organization Information] but found [TestYantyra Org925]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:629)
-at org.testng.Assert.assertEquals(Assert.java:639)
-at VerifyVtiger_pom.CreateOrgInd.createOrgInd(CreateOrgInd.java:43)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="createOrgInd()[pri:0, instance:VerifyVtiger_pom.CreateOrgInd@130c12b7]" started-at="2022-10-21T09:40:22 IST" name="createOrgInd" finished-at="2022-10-21T09:40:35 IST" duration-ms="13145" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createOrgInd -->
-        <test-method is-config="true" signature="logoutfromApp()[pri:0, instance:VerifyVtiger_pom.CreateOrgInd@5824a83d]" started-at="2022-10-18T17:55:37 IST" name="logoutfromApp" finished-at="2022-10-18T17:55:39 IST" duration-ms="1650" status="PASS">
+        <test-method is-config="true" signature="logoutfromApp()[pri:0, instance:VerifyVtiger_pom.CreateOrgInd@130c12b7]" started-at="2022-10-21T09:40:35 IST" name="logoutfromApp" finished-at="2022-10-21T09:40:37 IST" duration-ms="2468" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutfromApp -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:VerifyVtiger_pom.CreateOrgInd@5824a83d]" started-at="2022-10-18T17:55:39 IST" name="closeBrowser" finished-at="2022-10-18T17:55:55 IST" duration-ms="16261" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:VerifyVtiger_pom.CreateOrgInd@130c12b7]" started-at="2022-10-21T09:40:37 IST" name="closeBrowser" finished-at="2022-10-21T09:40:37 IST" duration-ms="89" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- VerifyVtiger_pom.CreateOrgInd -->
-      <class name="VerifyVtiger_pom.CreateCon">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:VerifyVtiger_pom.CreateCon@4b45a2f5]" started-at="2022-10-18T17:56:28 IST" name="launchBrowser" finished-at="2022-10-18T17:56:30 IST" duration-ms="1899" status="PASS">
+      <class name="VerifyVtiger_pom.CreateOrg">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:VerifyVtiger_pom.CreateOrg@2e6a8155]" started-at="2022-10-21T09:40:37 IST" name="launchBrowser" finished-at="2022-10-21T09:40:39 IST" duration-ms="1733" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="logintoApp()[pri:0, instance:VerifyVtiger_pom.CreateCon@4b45a2f5]" started-at="2022-10-18T17:56:30 IST" name="logintoApp" finished-at="2022-10-18T17:56:33 IST" duration-ms="2686" status="PASS">
+        <test-method is-config="true" signature="logintoApp()[pri:0, instance:VerifyVtiger_pom.CreateOrg@2e6a8155]" started-at="2022-10-21T09:40:39 IST" name="logintoApp" finished-at="2022-10-21T09:40:42 IST" duration-ms="2631" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintoApp -->
-        <test-method signature="createCon()[pri:0, instance:VerifyVtiger_pom.CreateCon@4b45a2f5]" started-at="2022-10-18T17:56:33 IST" name="createCon" finished-at="2022-10-18T17:56:47 IST" duration-ms="13924" status="PASS">
+        <test-method signature="createOrg()[pri:0, instance:VerifyVtiger_pom.CreateOrg@2e6a8155]" started-at="2022-10-21T09:40:42 IST" name="createOrg" finished-at="2022-10-21T09:40:55 IST" duration-ms="12903" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createCon -->
-        <test-method is-config="true" signature="logoutfromApp()[pri:0, instance:VerifyVtiger_pom.CreateCon@4b45a2f5]" started-at="2022-10-18T17:56:47 IST" name="logoutfromApp" finished-at="2022-10-18T17:56:48 IST" duration-ms="1546" status="PASS">
+        </test-method> <!-- createOrg -->
+        <test-method is-config="true" signature="logoutfromApp()[pri:0, instance:VerifyVtiger_pom.CreateOrg@2e6a8155]" started-at="2022-10-21T09:40:55 IST" name="logoutfromApp" finished-at="2022-10-21T09:40:56 IST" duration-ms="1840" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutfromApp -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:VerifyVtiger_pom.CreateCon@4b45a2f5]" started-at="2022-10-18T17:56:48 IST" name="closeBrowser" finished-at="2022-10-18T17:56:48 IST" duration-ms="102" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:VerifyVtiger_pom.CreateOrg@2e6a8155]" started-at="2022-10-21T09:40:56 IST" name="closeBrowser" finished-at="2022-10-21T09:40:56 IST" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- VerifyVtiger_pom.CreateOrg -->
+      <class name="VerifyVtiger_pom.CreateCon">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:VerifyVtiger_pom.CreateCon@6221a451]" started-at="2022-10-21T09:40:56 IST" name="launchBrowser" finished-at="2022-10-21T09:40:58 IST" duration-ms="1713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logintoApp()[pri:0, instance:VerifyVtiger_pom.CreateCon@6221a451]" started-at="2022-10-21T09:40:58 IST" name="logintoApp" finished-at="2022-10-21T09:41:01 IST" duration-ms="2726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintoApp -->
+        <test-method signature="createCon()[pri:0, instance:VerifyVtiger_pom.CreateCon@6221a451]" started-at="2022-10-21T09:41:01 IST" name="createCon" finished-at="2022-10-21T09:41:16 IST" duration-ms="14840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCon -->
+        <test-method is-config="true" signature="logoutfromApp()[pri:0, instance:VerifyVtiger_pom.CreateCon@6221a451]" started-at="2022-10-21T09:41:16 IST" name="logoutfromApp" finished-at="2022-10-21T09:41:17 IST" duration-ms="1453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutfromApp -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:VerifyVtiger_pom.CreateCon@6221a451]" started-at="2022-10-21T09:41:17 IST" name="closeBrowser" finished-at="2022-10-21T09:41:17 IST" duration-ms="118" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

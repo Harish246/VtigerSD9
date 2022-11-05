@@ -5,23 +5,40 @@
     <listener class-name="GenericUtility.Listeners_1"/>
   </listeners>
   <test thread-count="5" name="Test(failed)">
-    <groups>
-      <run>
-        <include name="smoke"/>
-      </run>
-    </groups>
     <classes>
-      <class name="VerifyVtiger_pom.CreateOrgInd">
+      <class name="VerifyVtiger_pom.CreateCon">
         <methods>
+          <include name="createCon"/>
           <include name="dataBaseConnection"/>
-          <include name="dataBaseDisConnection"/>
           <include name="logintoApp"/>
           <include name="logoutfromApp"/>
           <include name="launchBrowser"/>
+          <include name="disConnectDatavbase"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- VerifyVtiger_pom.CreateCon -->
+      <class name="VerifyVtiger_pom.CreateOrgInd">
+        <methods>
+          <include name="dataBaseConnection"/>
+          <include name="logintoApp"/>
+          <include name="logoutfromApp"/>
+          <include name="launchBrowser"/>
+          <include name="disConnectDatavbase"/>
           <include name="closeBrowser"/>
           <include name="createOrgInd"/>
         </methods>
       </class> <!-- VerifyVtiger_pom.CreateOrgInd -->
+      <class name="VerifyVtiger_pom.CreateOrg">
+        <methods>
+          <include name="dataBaseConnection"/>
+          <include name="logintoApp"/>
+          <include name="logoutfromApp"/>
+          <include name="launchBrowser"/>
+          <include name="disConnectDatavbase"/>
+          <include name="closeBrowser"/>
+          <include name="createOrg"/>
+        </methods>
+      </class> <!-- VerifyVtiger_pom.CreateOrg -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

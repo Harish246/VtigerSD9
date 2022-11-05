@@ -26,7 +26,7 @@ public class ReadDataFromJDBC {
 			Statement stmt = con.createStatement();
 			
 			//Step-4 execute query
-			ResultSet res = stmt.executeQuery("select* from student_info;");
+			ResultSet res = stmt.executeQuery("select* from students_info;");
 			while (res.next()) {
 			System.out.println(res.getString(1)+" "+res.getString(2)+" "+res.getString(3));
 			}

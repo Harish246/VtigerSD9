@@ -1,19 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="GenericUtility.Listeners_1"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="VerifyVtiger_pom.CreateOrgInd">
+      <class name="VerifyVtiger_pom.CreateCon">
         <methods>
+          <include name="createCon"/>
           <include name="dataBaseConnection"/>
-          <include name="dataBaseDisConnection"/>
           <include name="logintoApp"/>
           <include name="logoutfromApp"/>
           <include name="launchBrowser"/>
+          <include name="disConnectDatavbase"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- VerifyVtiger_pom.CreateCon -->
+      <class name="VerifyVtiger_pom.CreateOrgInd">
+        <methods>
+          <include name="dataBaseConnection"/>
+          <include name="logintoApp"/>
+          <include name="logoutfromApp"/>
+          <include name="launchBrowser"/>
+          <include name="disConnectDatavbase"/>
           <include name="closeBrowser"/>
           <include name="createOrgInd"/>
         </methods>
       </class> <!-- VerifyVtiger_pom.CreateOrgInd -->
+      <class name="VerifyVtiger_pom.CreateOrg">
+        <methods>
+          <include name="dataBaseConnection"/>
+          <include name="logintoApp"/>
+          <include name="logoutfromApp"/>
+          <include name="launchBrowser"/>
+          <include name="disConnectDatavbase"/>
+          <include name="closeBrowser"/>
+          <include name="createOrg"/>
+        </methods>
+      </class> <!-- VerifyVtiger_pom.CreateOrg -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
